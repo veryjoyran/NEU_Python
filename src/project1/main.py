@@ -51,10 +51,10 @@ column_translation = {
 
 house_data.rename(columns=column_translation, inplace=True)
 
-pd.set_option('display.max_columns', None)  # 显示所有列
-pd.set_option('display.max_rows', None)     # 显示所有行
-pd.set_option('display.width', 1000)        # 设置显示宽度，避免换行
-pd.set_option('display.colheader_justify', 'left')  # 左对齐列标题
+pd.set_option('display.max_columns', None)
+pd.set_option('display.max_rows', None)
+pd.set_option('display.width', 1000)
+pd.set_option('display.colheader_justify', 'left')
 
 query_address = input("请输入查询地址关键词: ")
 
@@ -127,4 +127,4 @@ output_columns = [
 
 result = sorted_data[output_columns]
 print(result)
-result.to_excel("filtered_results.xlsx", index=False)  
+result.to_excel("filtered_results.xlsx", index=False)

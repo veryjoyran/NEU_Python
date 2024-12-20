@@ -37,7 +37,7 @@
 2. **运行程序**：
    - 在终端运行以下命令：
      ```bash
-     python main.py
+     python WebScraperGUI.py
      ```
    - 根据提示输入查询条件和操作选项。
 

@@ -1,0 +1,10 @@
+Flask
+flask-restful
+flask-cors
+SQLAlchemy
+APScheduler
+requests
+beautifulsoup4
+pandas
+matplotlib
+lxml

@@ -135,7 +135,7 @@ class WebScraperGUI:
         city_url = self.get_city_url(city_code)
 
         # 创建爬虫对象并进行爬取
-        scraper = WebScraper_HouseData(base_url=city_url, pages=1)  # 默认爬取1页，可以修改
+        scraper = WebScraper_HouseData(base_url=city_url, pages=5)  # 默认爬取5页，可以修改
 
         # 清空之前的表格内容
         for row in self.table.get_children():
